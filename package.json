@@ -1,0 +1,14 @@
+{
+  "name": "webpack-start",
+  "version": "0.0.0",
+  "description": "Introduction to Webpack",
+  "scripts": {
+    "setup": "npm install -g webpack webpack-dev-server http-server"
+  },
+  "author": "Jeremy Lund <jeremylund@workfront.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
