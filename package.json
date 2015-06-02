@@ -3,11 +3,13 @@
   "version": "0.0.0",
   "description": "Introduction to Webpack",
   "scripts": {
-    "setup": "npm install -g webpack webpack-dev-server http-server"
+    "postinstall": "npm install -g webpack webpack-dev-server http-server"
   },
   "author": "Jeremy Lund <jeremylund@workfront.com>",
   "license": "Apache-2.0",
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack-dev-server": "^1.9.0"
+  },
   "dependencies": {
     "moment": "^2.10.3"
   }
